@@ -3,7 +3,7 @@
 		<div class="actionsheet" v-show="value" @click.stop="hideActionSheet"></div>
 		<div class="actionsheet-content" :class="{active: value}" @click.stop="">
 			<div class="actionsheet-list">
-				<div class="actionsheet-item" v-for="item,index in actions" :key="index" @click.stop="choose(index)">{{item.name}}</div>
+				<div class="actionsheet-item" v-for="item,index in actions" :key="index" @click.stop="choose(index)">{{item}}</div>
 			</div>
 			<div class="actionsheet-cencel" @click.stop="hideActionSheet">{{cancelText}}</div>
 		</div>

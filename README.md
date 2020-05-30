@@ -5,7 +5,7 @@ npm install vue-bottom-actionsheet --save
 
 ### main.js
 ```js
-import 'vue-bottom-actionsheet/lib/vue-bottom-actionsheet.css'
+import 'vue-bottom-actionsheet/lib/index.css'
 import vueActionsheet from 'vue-bottom-actionsheet'
 Vue.use(vueActionsheet)
 ```
@@ -20,7 +20,7 @@ Vue.use(vueActionsheet)
 | 名称        | 类型              | 默认值 |
 | ----------- | ----------------- | ------ |
 | show        | Boolean           | false  |
-| actions     | Array菜单项数组          | [] |
+| actions     | Array菜单项数组['选项1','选项2']          | [] |
 | cancelText  | 取消按钮文案 | 取消  |
 ### 方法
 

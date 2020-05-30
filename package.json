@@ -1,6 +1,6 @@
 {
   "name": "vue-bottom-actionsheet",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "private": false,
   "license": "MIT",
   "repository": {
@@ -12,11 +12,11 @@
     "actionsheet"
   ],
   "description": "actionsheet",
-  "main": "lib/vue-bottom-actionsheet.umd.min.js",
+  "main": "lib/index.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-	"lib": "vue-cli-service build --target lib --name vue-bottom-actionsheet --dest lib src/actionsheet/index.js"
+	"lib": "vue-cli-service build --target lib --name index --dest lib src/actionsheet/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
